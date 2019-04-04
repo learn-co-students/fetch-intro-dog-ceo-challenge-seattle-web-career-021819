@@ -36,17 +36,10 @@ fetch(breedUrl)
   }
 });
 
-// FILTER
-const dropdown = document.getElementById('breed-dropdown')
-
-dropdown.addEventListener("click", function() {
-  const options = dropdown.querySelectorAll('option');
-
-} )
-
-
-
-
-
-
-console.log('done!')
+// FILTER - DOESN'T WORK
+// const dropdown = document.getElementById('breed-dropdown')
+//
+// dropdown.addEventListener("click", function() {
+//   const options = dropdown.querySelectorAll('option');
+//
+// } )
